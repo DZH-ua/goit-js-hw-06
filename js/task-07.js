@@ -6,4 +6,4 @@ const onInputValueChangeFont = (element) => {
   contentSpanEl.style.fontSize = `${newFontSize}px`;
 };
 
-rangeInputEl.addEventListener("change", onInputValueChangeFont);
+rangeInputEl.addEventListener("input", onInputValueChangeFont);
